@@ -1,4 +1,4 @@
-package com.isllam.moviesapp.movieList.data.remote
+package com.isllam.moviesapp.featuremovies.data.remote
 
 import retrofit2.http.GET
 import retrofit2.http.Path
