@@ -1,4 +1,5 @@
-package com.isllam.moviesapp.featuremovies.domain.model
+package com.isllam.moviesapp.featuremovies.data.remote.respond
+
 
 data class MovieListDto(
     val page: Int,

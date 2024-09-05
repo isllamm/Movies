@@ -1,5 +1,6 @@
 package com.isllam.moviesapp.featuremovies.data.remote
 
+import com.isllam.moviesapp.featuremovies.data.remote.respond.MovieListDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
@@ -16,5 +17,5 @@ interface MovieApi {
         @Path("category") category: String,
         @Query("page") page: Int,
         @Query("api_key") apiKey: String = API_KEY,
-    )
+    ):MovieListDto
 }
